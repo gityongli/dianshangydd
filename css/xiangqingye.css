@@ -123,13 +123,14 @@ article .flash img {
 [data-dpr="3"] .two .p6{
 	font-size: 44px;
 }
-.two .p6 .span62{
+/*.two .p6 .span62{
 	width: 6.786rem;
 	height: 6.09rem;
 	border: 0.026rem solid #9b9daa;
 	border-radius:0.1rem;
 	background: brown;
-}
+}*/
+/*
 .two .p6 .span63{
 	float: right;
 	color:#9b9daa;
@@ -142,5 +143,7 @@ article .flash img {
 [data-dpr="3"] .two .p6 .span63{
 	font-size: 42px;
 }
+*/
+
 
 
