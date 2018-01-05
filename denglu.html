@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <!--引入flexible插件-->
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <!--引入矢量图标css-->
+    <link rel="stylesheet" href="css/iconfont.css">
+    <!--引入shouye.css-->
+    <link rel="stylesheet" href="css/denglu.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index1.js"></script>
+</head>
+<body>
+<header>
+    <div class="head">
+        <div class="top">
+            <a href="index1.html">
+                <img src="img/daosanjiao.jpg" alt="" class="img1"/>
+            </a>
+            <a href="denglu.html">用户登录</a>
+        </div>
+    </div>
+
+</header>
+<section>
+    <div class="center">
+        <div class="center">
+            <form action="#" method="post">
+                <fieldset>
+                    <p align="center">
+                        <input type="text" placeholder="请输入用户名:英文，数字长度为10-16个字符"
+                               pattern="[a-zA-Z]\w{10,16}" required>
+                    </p>
+                    <p align="center">
+                        <input type="tel" placeholder="请输入手机号"
+                               pattern="^(15[0|1|2|3|5|6|7|8|9])\d{8}$" required>
+                    </p>
+                    <p align="center">
+                        <input type="email" placeholder="请输入邮箱号"
+                               pattern="/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])/" required>
+                    </p>
+                    <p align="center">
+                        <input type="password" placeholder="请输入密码:密码为英文，长度为5-17个字符"
+                               pattern="^[a-zA-Z]\w{5,17}$" id="password" required>
+                    </p>
+                    <p align="center" id="p">
+                        <span class="span1">忘记密码？</span>
+                        <span class="span2">找回密码</span>
+                    </p>
+                    <p align="center">
+                        <button class="button1">登录</button>
+                    </p>
+                    <p align="center">
+                        <button class="button2">短信验证码登录</button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="foot">
+        <a href="index1.html">
+            <p>首页</p>
+        </a>
+        <a href="#">
+            <p>购物车</p>
+        </a>
+        <a href="denglu.html">
+            <p>登录</p>
+        </a>
+        <a href="zhuce.html">
+            <p>注册</p>
+        </a>
+        <a href="pcenter.html">
+            <p>个人中心</p>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

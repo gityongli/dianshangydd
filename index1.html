@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电商首页</title>
+    <!--引入flexible插件-->
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <!--引入矢量图标css-->
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+    <!--引入shouye.css-->
+    <link rel="stylesheet" href="css/index1.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index1.js"></script>
+</head>
+<body>
+<!--header部分开始-->
+<header>
+    <div class="head">
+        <div class="header-left">
+            <ul class="ul1">
+                <li>
+                    <a href="#" class="a1"><img src="img/logo.jpg"></a>
+                    <a href="#" class="a2">
+                        <i class="iconfont icon-fangdajing"></i>
+                    </a>
+                    <a href="#" class="a3">
+                        <p>消息</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header部分结束-->
+<!--轮播开始-->
+<!--引入swiper.css-->
+<link rel="stylesheet" href="css/swiper.min.css">
+<div class="flash">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/lb1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/lb4.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--引入swiper.js-->
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: true,
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination'
+            }
+        })
+    </script>
+</div>
+<!--轮播结束-->
+<!--全部产品部分开始-->
+<div class="one">
+    <p><img src="img/fenglei.jpg" alt="" class="oneimg">全部产品分类</p>
+</div>
+<!--全部产品部分结束-->
+<!--导航部分开始-->
+<nav>
+    <ul>
+        <li>
+            <a href="">
+                <img src="img/nav10.png" alt="">
+                <p>服务</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav10.png" alt="">
+                <p>门店</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav10.png" alt="">
+                <p>社区</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav10.png" alt="">
+                <p>应用</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav1.png" alt="">
+                <p>冰箱</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav2.png" alt="">
+                <p>空调</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav3.png" alt="">
+                <p>洗衣机</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav4.png" alt="">
+                <p>热水器</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav5.png" alt="">
+                <p>全部</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav7.png" alt="">
+                <p>分享镜头</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav9.png" alt="">
+                <p>母婴交流</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/nav10.png" alt="">
+                <p>全部圈子</p>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!--导航部分结束-->
+<!--热门活动开始-->
+<section>
+    <div class="two">
+        <p><img src="img/remenghuodong1.jpg" alt="">热门产品</p>
+    </div>
+    <div class="three">
+        <div class="border">
+            <p class="p1">舒适风系列1.5匹变频壁挂式空调</p>
+            <p class="p2">KFR-35W/AIYAAA21AUI</p>
+            <img src="img/chanplb1.jpg" alt="" class="pic">
+        </div>
+    </div>
+    <div class="three">
+        <div class="border">
+            <p class="p1">海尔55英寸阿里Ⅲ代4K电视</p>
+            <p class="p2">LS55AL88U62</p>
+            <img src="img/chanplb2.jpg" alt="" class="pic">
+        </div>
+    </div>
+    <div class="three">
+        <div class="border">
+            <p class="p1">325升风冷变频三门冰箱</p>
+            <p class="p2">BCD-325WDGB</p>
+            <img src="img/chanplb3.jpg" alt="" class="pic">
+        </div>
+    </div>
+    <div class="three">
+        <div class="border">
+            <p class="p1">7.0公斤变频滚筒洗衣机</p>
+            <p class="p2">XQG70-BX12719</p>
+            <img src="img/chanplb4.jpg" alt="" class="pic">
+        </div>
+    </div>
+    <div class="four">
+        <div class="four-one">
+            <div class="left">
+                <img src="img/zhuanqu1.png" alt="">
+                <p class="p3">洗衣机专区</p>
+                <p class="p4">经典洗护,超越期待</p>
+            </div>
+            <div class="left1">
+                <img src="img/zhuanqu2.png" alt="">
+                <p class="p3">冰箱专区</p>
+                <p class="p4">智慧生活,健康引领</p>
+            </div>
+            <div class="left2">
+                <img src="img/zhuanqu3.png" alt="">
+                <p class="p3">空调专区</p>
+                <p class="p4">海尔自清洁空调,空气更健康</p>
+            </div>
+            <div class="left3">
+                <img src="img/zhuanqu4.png" alt="">
+                <p class="p3">电视专区</p>
+                <p class="p4">娱乐可以很简单</p>
+            </div>
+        </div>
+    </div>
+    <div class="five">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <div class="flash">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="lun">
+                            <p class="p5">心选新品</p>
+                            <p class="p6">凌越S4笔记本电脑</p>
+                            <P class="p7">上市时间:2017年6月</P>
+                            <img src="img/xinxuanlb1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lun">
+                            <p class="p5">心选新品</p>
+                            <p class="p6">小管家智能风暖浴霸</p>
+                            <P class="p7">上市时间:2017年6月</P>
+                            <img src="img/xinxuanlb2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lun">
+                            <p class="p5">心选新品</p>
+                            <p class="p6">速热洗热水器</p>
+                            <P class="p7">上市时间:2017年6月</P>
+                            <img src="img/xinxuanlb3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="lun">
+                            <p class="p5">心选新品</p>
+                            <p class="p6">海尔阿里四代电视</p>
+                            <P class="p7">上市时间:2017年6月</P>
+                            <img src="img/xinxuanlb4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!--引入swiper.js-->
+            <script src="js/swiper.min.js"></script>
+            <script>
+                var mySwiper = new Swiper('.swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    // 如果需要分页器
+                    pagination: {
+                        el: '.swiper-pagination'
+
+                    },
+                    navigation: {
+                      nextEl: '.swiper-button-next',
+                      prevEl: '.swiper-button-prev'
+                }
+                })
+            </script>
+        </div>
+    </div>
+    <div class="six">
+        <div class="img">
+            <img src="img/ce1.jpg" alt="">
+        </div>
+    </div>
+    <div class="seven">
+        <div class="img">
+            <img src="img/ce2.jpg" alt="">
+        </div>
+    </div>
+    <div class="eight">
+        <div class="img">
+            <img src="img/ce3.jpg" alt="">
+        </div>
+    </div>
+    <div class="nine">
+        <div class="nine-top">
+            <a href="#">
+                <p><img src="img/shoujiban.jpg" alt="" class="img-top">触屏版</p>
+            </a>
+            <a href="#">
+                <p><img src="img/diannaoban.jpg" alt="" class="img-top1">电脑版</p>
+            </a>
+        </div>
+        <div class="nine-bottom">
+            <p>快捷导航&nbsp;&nbsp;活动精选
+             </p>
+        </div>
+    </div>
+</section>
+<!--热门活动结束-->
+<!--footer部分开始-->
+<script src="js/iconfont.js"></script>
+
+<footer>
+    <div class="foot">
+        <a href="index1.html">
+            <p>首页</p>
+        </a>
+        <a href="#">
+            <p>购物车</p>
+        </a>
+        <a href="denglu.html">
+            <p>登录</p>
+        </a>
+        <a href="zhuce.html">
+            <p>注册</p>
+        </a>
+        <a href="pcenter.html">
+            <p>个人中心</p>
+        </a>
+    </div>
+</footer>
+<!--footer部分结束-->
+</body>
+</html>

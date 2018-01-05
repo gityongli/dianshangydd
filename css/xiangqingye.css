@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+	width:100%;
+	height: 1.146rem;
+	position: fixed;
+	top:0;
+	background: #fff;
+}
+header .head{
+	width:10rem;
+	height: 1.146rem;
+	margin: 0 auto;
+	background: #eee;
+	border-bottom: 0.02rem solid #e4e4e4;
+}
+header .head p{
+	line-height: 1.146rem;
+	text-align: center;
+	color:#2a333e;
+	font-size: 18px;
+}
+[data-dpr="2"] header .head p{
+	font-size: 36px;
+}
+[data-dpr="3"] header .head p{
+	font-size: 54px;
+}
+article{
+	width: 10rem;
+	height:100rem;
+	margin: 0 auto;
+	position: relative;
+	top:1.146rem;
+}
+article .flash{
+	width:10rem;
+	height: 8.4rem;
+	background: #fff;
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+article .flash img {
+    width: 10rem;
+    height: 8.4rem;
+}
+.one{
+	width: 10rem;
+	height:3.6rem;
+}
+.one p{
+	font-size: 16px;
+}
+[data-dpr="2"] .one p{
+	font-size: 32px;
+}
+[data-dpr="3"] .one p{
+	font-size: 48px;
+}
+.one .p1{
+	color:#1f2032;
+	margin-left:0.4rem;
+	height:0.8rem;
+	line-height: 0.8rem;
+}
+.one .p1 img{
+	width:0.613rem;
+	height:0.613rem;
+	float:right;
+	margin-right: 0.4rem;
+	margin-top: 0.4rem;
+}
+.one .p2{
+	color:#1f2032;
+	margin-left:0.4rem;
+	height:0.6533rem;
+}
+.one .p3{
+	color:#1f2032;
+	margin-left:0.4rem;
+	height:0.746rem;
+	line-height: 0.746rem;
+}
+.one .p4{
+	color:#ee2060;
+	margin-left:0.4rem;
+	height:0.45rem;
+	line-height: 0.45rem;
+}
+.one .p5{
+	color:#3ba0fa;
+	margin-left:0.4rem;
+	height:0.973rem;
+	line-height: 0.973rem;
+	font-size: 12px;
+}
+[data-dpr="2"] .one .p5{
+	font-size: 24px;
+}
+[data-dpr="3"] .one .p5{
+	font-size: 36px;
+}
+.two{
+	width:10rem;
+	height:4.446rem;
+	background: blue;
+	margin: 0 auto;
+}
+.two .p6{
+	color:#1f2032;
+	margin-left:0.4rem;
+	height:1.533rem;
+	line-height: 1.533rem;
+	font-size: 14px;
+	background: #f2f2f2;
+}
+[data-dpr="2"] .two .p6{
+	font-size: 28px;
+}
+[data-dpr="3"] .two .p6{
+	font-size: 44px;
+}
+.two .p6 .span62{
+	width: 6.786rem;
+	height: 6.09rem;
+	border: 0.026rem solid #9b9daa;
+	border-radius:0.1rem;
+	background: brown;
+}
+.two .p6 .span63{
+	float: right;
+	color:#9b9daa;
+	font-size: 14px;
+	margin-right: 0.4rem;
+}
+[data-dpr="2"] .two .p6 .span63{
+	font-size: 28px;
+}
+[data-dpr="3"] .two .p6 .span63{
+	font-size: 42px;
+}
+
+
