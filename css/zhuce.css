@@ -39,6 +39,8 @@ header .top a:nth-child(2){
     font-size: 60px;
 }
 header .top .img1{
+    width: 0.5rem;
+    height: 0.5rem;
     transform: rotate(90deg);
     margin-top: 0.6rem;
     margin-left: 0.466rem;
