@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 1.36rem;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 2;
+}
+header .one {
+    width: 10rem;
+    height: 1.36rem;
+    margin: 0 auto;
+    background: #eee;
+    line-height: 1.36rem;
+    position: relative;
+}
+header .one a{
+    color: #003b9b;
+    width: 2.5rem;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.36rem;
+    display: block;
+    float:left;
+
+}
+header .one a:hover{
+    background: red;
+    color:#fff;
+    font-weight: bold;
+}
+[data-dpr="2"] header .one a{
+    font-size: 28px;
+}
+[data-dpr="3"] header .one a{
+    font-size: 42px;
+}
+/*洗衣机轮播部分开始*/
+article{
+    width: 10rem;
+    height:8.4rem;
+    margin: 0 auto;
+    position: relative;
+    top:1.36rem;
+    background: red;
+}
+article .flash{
+    width:10rem;
+    height: 8.4rem;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+article .flash img {
+    width: 10rem;
+    height: 8.4rem;
+}
+/*洗衣机轮播部分结束*/
+section{
+    width: 10rem;
+    height:74rem;
+    position: relative;
+    top: 1.36rem;
+}
+section .one{
+    width: 10rem;
+    height: 28.5rem;
+    position: relative;
+}
+section .p1{
+    height: 1.2rem;
+    font-size: 20px;
+    color:#000;
+    text-align: center;
+    line-height:1.2rem;
+    border-bottom: 0.026rem solid #d3d3d3;
+}
+[data-dpr="2"] section .p1{
+    font-size: 40px;
+}
+[data-dpr="3"] section .p1{
+    font-size: 60px;
+}
+section ul li{
+    width: 4.8rem;
+    height: 6.9rem;
+    float:left;
+    border:0.016rem solid #d3d3d3;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+}
+
+section ul .li2{
+    float:right;
+}
+section ul li img{
+    width: 4rem;
+    height: 4.053rem;
+    margin: 0.4rem 0.4rem 0.2rem 0.4rem;
+}
+section ul .p2{
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 12px;
+    color:#636364;
+    margin-left: 0.4rem;
+
+}
+[data-dpr="2"] section .p2{
+    font-size: 24px;
+}
+[data-dpr="3"] section .p2{
+    font-size: 36px;
+}
+section ul .p3{
+    font-size: 12px;
+    color:#d8154d;
+    margin-left: 0.4rem;
+}
+[data-dpr="2"] section .p3{
+    font-size: 24px;
+}
+[data-dpr="3"] section .p3{
+    font-size: 36px;
+}
+section ul .span1{
+    color:#078707;
+    float:right;
+    margin-right: 0.4rem;
+}
+/*footer部分开始*/
+footer {
+    width: 100%;
+    height: 1.24rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+}
+
+footer .foot {
+    width: 10rem;
+    height: 1.24rem;
+    margin: 0 auto;
+    background: #eee;
+    text-align: center;
+    line-height: 1.24rem;
+}
+
+footer a {
+    width: 2rem;
+    height: 1.24rem;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    color: #5D656B;
+}
+
+footer a p {
+    color: #003b9b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+[data-dpr="2"] footer a p {
+    font-size: 28px;
+}
+
+[data-dpr="3"] footer a p {
+    font-size: 42px;
+}
+
+/*footer部分结束*/

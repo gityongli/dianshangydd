@@ -14,7 +14,6 @@ header {
     background: #fff;
     z-index: 2;
 }
-
 header .head {
     width: 10rem;
     height: 1.36rem;
@@ -23,7 +22,6 @@ header .head {
     line-height: 1.36rem;
     position: relative;
 }
-
 header .head .a1 {
     margin-left: 0.426rem;
     color: #fdfdfd;
@@ -32,13 +30,11 @@ header .head .a1 {
     display: block;
     float: left;
 }
-
 header .head .a1 img {
     width: 1.813rem;
     height: 0.8rem;
     margin-top: 0.2rem;
 }
-
 header .head .a2 {
     width: 6.133rem;
     height: 0.773rem;
@@ -51,7 +47,6 @@ header .head .a2 {
     border-radius: 0.5rem;
     border-color: #003b9b;
 }
-
 header a .iconfont.icon-fangdajing {
     font-size:18px;
     color: #8e8d93;
@@ -59,7 +54,6 @@ header a .iconfont.icon-fangdajing {
     left: 3rem;
     top: 0;
 }
-
 [data-dpr="2"] header a .iconfont.icon-fangdajing {
     font-size: 36px;
 }
@@ -67,7 +61,6 @@ header a .iconfont.icon-fangdajing {
 [data-dpr="3"] header a .iconfont.icon-fangdajing {
     font-size: 54px;
 }
-
 header .head .a3 p{
     margin-left: 0.32rem;
     color: #003b9b;
@@ -79,11 +72,9 @@ header .head .a3 p{
 [data-dpr="2"] header .ul1 .a3 p {
     font-size: 32px;
 }
-
 [data-dpr="3"] header .ul1 .a3 p {
     font-size: 48px;
 }
-
 /*header部分结束*/
 /*<!--轮播开始-->*/
 .flash {
@@ -94,12 +85,10 @@ header .head .a3 p{
     position: relative;
     top: 1.36rem;
 }
-
 .flash img {
     width: 10rem;
     height: 5.44rem;
 }
-
 /*<!--轮播结束-->*/
 /*<!--全部产品部分开始-->*/
 .one{
@@ -171,7 +160,6 @@ section{
     position: relative;
     top: 1.36rem;
     margin: 0 auto;
-
 }
 .two {
     width: 10rem;
@@ -256,7 +244,6 @@ section{
     height: 8.11rem;
     position: absolute;
     left:0.5rem;
-
 }
 .four .four-one .left{
     width: 4.4rem;

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 1.36rem;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 2;
+}
+header .one {
+    width: 10rem;
+    height: 1.36rem;
+    margin: 0 auto;
+    background: #eee;
+    line-height: 1.36rem;
+    position: relative;
+}
+header .one a{
+    color: #003b9b;
+    width: 2.5rem;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.36rem;
+    display: block;
+    float:left;
+
+}
+header .one a:hover{
+    background: red;
+    color:#fff;
+    font-weight: bold;
+}
+[data-dpr="2"] header .one a{
+    font-size: 28px;
+}
+[data-dpr="3"] header .one a{
+    font-size: 42px;
+}
+/*空调部分开始*/
+.content{
+    width: 10rem;
+    height:72rem;
+    margin: 0 auto;
+    position: relative;
+    top: 1.36rem;
+}
+.content .one{
+    width: 10rem;
+    height: 22rem;
+    position: relative;
+}
+.content .p1{
+    height: 1.2rem;
+    font-size: 20px;
+    color:#000;
+    text-align: center;
+    line-height:1.2rem;
+    border-bottom: 0.026rem solid #d3d3d3;
+}
+[data-dpr="2"] .content .p1{
+    font-size: 40px;
+}
+[data-dpr="3"] .content .p1{
+    font-size: 60px;
+}
+.content .ul1 li{
+    width: 4.8rem;
+    height:6.8rem;
+    float:left;
+    border:0.016rem solid #d3d3d3;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+}
+
+.content .ul1 .li2{
+    float:right;
+}
+.content .ul1 li img{
+    width: 4rem;
+    height: 4.053rem;
+    margin: 0.4rem 0.4rem 0.3rem 0.4rem;
+}
+.content .ul1 .p2{
+    width: 4rem;
+    height: 0.5rem;
+    font-size: 12px;
+    color:#000000;
+    margin-left: 0.4rem;
+
+}
+[data-dpr="2"] .content .p2{
+    font-size: 24px;
+}
+[data-dpr="3"] .content .p2{
+    font-size: 36px;
+}
+.content .ul1 .p3{
+    font-size: 12px;
+    color: #6b0000;
+    font-weight: bold;
+    margin-left: 0.4rem;
+    height: 0.5rem;
+
+}
+[data-dpr="2"] .content .p3{
+    font-size: 24px;
+
+}
+[data-dpr="3"] .content .p3{
+    font-size: 36px;
+}
+.content .ul1 .span1{
+    color:#c40000;
+    float:right;
+    margin-right: 0.4rem;
+}
+.content .ul1 .p4{
+    font-size: 12px;
+    color:#c40000;
+    margin-left: 0.4rem;
+    font-weight: bold;
+
+}
+[data-dpr="2"] .content .p4{
+    font-size: 24px;
+}
+[data-dpr="3"] .content .p4{
+    font-size: 36px;
+}
+.content .ul1 .span1{
+    color:#0d56a9;
+    float:right;
+    margin-right: 0.4rem;
+}
+/*空调部分结束*/
+/*footer部分开始*/
+footer {
+    width: 100%;
+    height: 1.24rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+}
+footer .foot {
+    width: 10rem;
+    height: 1.24rem;
+    margin: 0 auto;
+    background: #eee;
+    text-align: center;
+    line-height: 1.24rem;
+}
+footer a {
+    width: 2rem;
+    height: 1.24rem;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    color: #5D656B;
+}
+footer a p {
+    color: #003b9b;
+    font-weight: bold;
+    font-size: 14px;
+}
+[data-dpr="2"] footer a p {
+    font-size: 28px;
+}
+[data-dpr="3"] footer a p {
+    font-size: 42px;
+}
+/*footer部分结束*/

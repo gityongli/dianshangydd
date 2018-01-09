@@ -8,6 +8,7 @@ header{
 	position: fixed;
 	top:0;
 	background: #fff;
+	z-index: 9;
 }
 header .head{
 	width:10rem;
@@ -30,7 +31,7 @@ header .head p{
 }
 article{
 	width: 10rem;
-	height:100rem;
+	height:24rem;
 	margin: 0 auto;
 	position: relative;
 	top:1.146rem;
@@ -106,44 +107,226 @@ article .flash img {
 .two{
 	width:10rem;
 	height:4.446rem;
-	background: blue;
 	margin: 0 auto;
 }
-.two .p6{
+.two .ul1{
+	width: 10rem;
+	height: 1.466rem;
+}
+.two .ul1 li{
+	float:left;
+	height:1.466rem;
 	color:#1f2032;
 	margin-left:0.4rem;
-	height:1.533rem;
-	line-height: 1.533rem;
+	line-height: 1.466rem;
 	font-size: 14px;
-	background: #f2f2f2;
 }
-[data-dpr="2"] .two .p6{
+[data-dpr="2"] .two .ul1 li{
 	font-size: 28px;
 }
-[data-dpr="3"] .two .p6{
+[data-dpr="3"] .two .ul1 li{
 	font-size: 44px;
 }
-/*.two .p6 .span62{
-	width: 6.786rem;
-	height: 6.09rem;
-	border: 0.026rem solid #9b9daa;
-	border-radius:0.1rem;
-	background: brown;
-}*/
-/*
-.two .p6 .span63{
-	float: right;
+.two .ul1 .p7{
+	width: 3.76rem;
+	height: 1.04rem;
+	border:0.026rem solid #f2f2f2;
+	border-radius: 0.1rem;
+	margin-top: 0.213rem;
+	line-height: 1.04rem;
+}
+.two .ul1 .p7 span{
+	float:left;
+}
+.two .ul1 .p7 .span7{
+	width: 1rem;
+	height: 0.666rem;
+	display: block;
+	text-align: center;
+	line-height: 0.666rem;
+	margin-top:0.2rem;
+	border-right:0.026rem solid #f2f2f2;
+}
+.two .ul1 .p7 .span8{
+	width: 1.6rem;
+	height: 0.666rem;
+	display: block;
+	text-align: center;
+	line-height: 0.666rem;
+	margin-top:0.2rem;
+}
+.two .ul1 .p7 .span9{
+	width: 1rem;
+	height: 0.666rem;
+	display: block;
+	text-align: center;
+	line-height: 0.666rem;
+	margin-top:0.2rem;
+	border-left:0.026rem solid #f2f2f2;
+	float:right;
+}
+.two .ul1 .p8{
 	color:#9b9daa;
 	font-size: 14px;
-	margin-right: 0.4rem;
+	float:right;
+	margin-right:0.4rem;
 }
-[data-dpr="2"] .two .p6 .span63{
+.two .ul2{
+	width: 10rem;
+	height: 1.466rem;
+}
+.two .ul2 li{
+	float:left;
+	height:1.466rem;
+	color:#1f2032;
+	margin-left:0.4rem;
+	line-height: 1.466rem;
+	font-size: 14px;
+}
+[data-dpr="2"] .two .ul2 li{
 	font-size: 28px;
 }
-[data-dpr="3"] .two .p6 .span63{
+[data-dpr="3"] .two .ul2 li{
+	font-size: 44px;
+}
+option{
+	font-size: 13px;
+	color:#000;
+}
+.two .ul2 .li3{
+	color:#9b9daa;
+	font-size: 14px;
+	float:right;
+	margin-right:0.4rem;
+}
+.two .p9{
+	width: 10rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	font-size: 14px;
+	color:#1f2032;
+}
+[data-dpr="2"] .two .p9{
+	font-size: 28px;
+}
+[data-dpr="3"] .two .p9{
+	font-size: 44px;
+}
+.two .ul3{
+	width: 10rem;
+	height: 1.133rem;
+	margin:0 auto;
+	border-bottom:0.186rem solid #f4f4f4;
+}
+.two .ul3 li{
+	width: 2rem;
+	height: 1.133rem;
+	float:left;
+	font-size: 13px;
+	color:#d1a043;
+	line-height: 1.133rem;
+	text-align: center;
+}
+.two .ul3 li:nth-child(1){
+	margin-left: 2rem;
+}
+[data-dpr="2"] .two .ul3 li{
+	font-size: 26px;
+}
+[data-dpr="3"] .two .ul3 li{
+	font-size: 39px;
+}
+.two .ul3 li img{
+	width: 0.4rem;
+	height: 0.4rem;
+	float:left;
+	margin-top:0.33rem;
+}
+.two .ul4{
+	width: 10rem;
+	height: 4.8rem;
+	background:#f4f4f4;
+	font-size: 14px;
+	color:#3a3c40;
+}
+[data-dpr="2"] .two .ul4{
+	font-size: 28px;
+}
+[data-dpr="3"] .two .ul4{
 	font-size: 42px;
 }
-*/
-
-
-
+.two .ul4 .li4{
+	height: 1.16rem;
+	line-height: 1.16rem;
+	margin-top: 0.16rem;
+	background: #fff;
+}
+.two .ul4 .span4{
+	margin-left: 0.4rem;
+}
+.two .ul4 .span10{
+	float:right;
+	color:#3a3c40;
+	margin-right: 0.4rem;
+}
+.two .ul4 .li5{
+	height: 1.16rem;
+	line-height: 1.16rem;
+	margin-top: 0.24rem;
+	background: #fff;
+}
+.two .ul4 .li6{
+	height: 1.16rem;
+	line-height: 1.16rem;
+	margin-top: 0.026rem;
+	background: #fff;
+}
+.two .ul4 .li6 .span11{
+	margin-left: 2.5rem;
+}
+footer{
+	width: 100%;
+	height: 1.333rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+}
+footer a p{
+	color:#edfcff;
+}
+footer .foot{
+	width: 10rem;
+	height: 1.333rem;
+	background: #f4f4f4;
+	margin: 0 auto;
+}
+footer .foot ul li{
+	float:left;
+	font-size: 16px;
+}
+[data-dpr="2"] footer .foot ul li{
+	font-size: 32px;
+}
+[data-dpr="3"] footer .foot ul li{
+	font-size: 48px;
+}
+footer .foot ul .li1{
+	width: 1rem;
+	height: 1.333rem;
+	text-align: center;
+}
+footer .foot ul .li2{
+	width: 4.5rem;
+	height: 1.333rem;
+	text-align: center;
+	background:#3ba0fa ;
+	line-height: 1.333rem;
+}
+footer .foot ul .li3{
+	width: 4.5rem;
+	height: 1.333rem;
+	text-align: center;
+	background:#ef2765 ;
+	line-height: 1.333rem;
+}
