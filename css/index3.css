@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 header {
+    width:100%;
     height: 1.36rem;
     position: fixed;
     top: 0;
@@ -41,6 +42,7 @@ header .flash a:hover{
 [data-dpr="3"] header .flash a{
     font-size: 42px;
 }
+
 /*热水器部分开始*/
 .content{
     width: 10rem;
