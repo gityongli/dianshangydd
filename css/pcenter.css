@@ -71,24 +71,23 @@ section .center .p1{
 section .center .p2{
     height: 1rem;
     line-height: 1rem;
-    font-size: 16px;
+    font-size: 13px;
     color:#5b5958;
     margin-left: 0.5rem;
     margin-top: 0.2rem;
 }
 section .center .p2 .span-right{
     color:#295fff;
-    margin-left: 2.7rem;
 
 }
 section .center .p2 .span-right1{
    float: right;
 }
 [data-dpr="2"] section .center .p2{
-    font-size: 23px;
+    font-size:26px;
 }
 [data-dpr="3"] section .center .p2{
-    font-size: 48px;
+    font-size: 39px;
 }
 section .center .p2 img{
     width: 0.3rem;
