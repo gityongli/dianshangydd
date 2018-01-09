@@ -100,22 +100,17 @@ header .head .a3 p{
     border-bottom:0.046rem solid #d9d9d9;
     background: #fff;
 }
-.one img{
-    position: absolute;
-    left: 3rem;
-    top: 0.533rem;
-}
-.one p{
+.one p {
     text-align: center;
     line-height: 1.6rem;
-    font-size: 20px;
+    font-size: 16px;
     color:#014aa2;
 }
 [data-dpt="2"] .one p{
-    font-size: 40px;
+    font-size: 32px;
 }
 [data-dpt="3"] .one p{
-    font-size: 60px;
+    font-size: 48px;
 }
 /*<!--全部产品部分结束-->*/
 /*导航部分开始*/
@@ -178,14 +173,14 @@ section{
 .two p{
     text-align: center;
     line-height: 1.6rem;
-    font-size: 20px;
+    font-size: 16px;
     color:#014aa2;
 }
 [data-dpt="2"] .two p{
-    font-size: 40px;
+    font-size: 32px;
 }
 [data-dpt="3"] .two p{
-    font-size: 60px;
+    font-size: 48px;
 }
 .three{
     width: 10rem;
@@ -244,6 +239,12 @@ section{
     height: 8.11rem;
     position: absolute;
     left:0.5rem;
+}
+.four-one img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left:2rem;
+    margin-top: 0.88rem;
 }
 .four .four-one .left{
     width: 4.4rem;
@@ -304,10 +305,6 @@ section{
 }
 [data-dpr="3"] .four-one .p4{
     font-size: 36px;
-}
-.four-one img{
-    margin-left:1.866rem;
-    margin-top: 0.88rem;
 }
 .five{
     width: 10rem;
@@ -430,6 +427,10 @@ section{
     width: 10rem;
     height: 1.5rem;
     border-bottom: 0.0466rem solid #4c4d4e;
+}
+.nine .nine-top img{
+    width: 0.5rem;
+    height: 0.8rem;
 }
 .nine .nine-top p{
     line-height: 1.5rem;

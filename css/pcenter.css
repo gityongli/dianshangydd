@@ -42,13 +42,15 @@ header .top a:nth-child(2){
     font-size: 60px;
 }
 header .top .img1{
+    width: 0.5rem;
+    height: 0.5rem;
     transform: rotate(90deg);
     margin-top: 0.6rem;
     margin-left: 0.466rem;
 }
 section{
     width: 10rem;
-    height: 15.06rem;
+    height: 16.06rem;
     margin: 0 auto;
     position: relative;
     top:1.666rem;
@@ -89,6 +91,8 @@ section .center .p2 .span-right1{
     font-size: 48px;
 }
 section .center .p2 img{
+    width: 0.3rem;
+    height: 0.3rem;
     float: left;
     margin-right: 0.5rem;
     margin-top: 0.3rem;
@@ -107,14 +111,14 @@ section .center .ul li{
     border-radius: 0.1rem;
 }
 section .center .ul span{
-    font-size: 18px;
+    font-size: 14px;
     color:#5b5958;
 }
 [data-dpr="2"] section .center .ul span{
-    font-size: 36px;
+    font-size: 28px;
 }
 [data-dpr="3"] section .center .ul span{
-    font-size: 54px;
+    font-size: 42px;
 }
 section .center .ul img{
     width: 0.4rem;
@@ -155,6 +159,8 @@ section .center .p5 a{
     font-size: 48px;
 }
 section .center .p5 a img{
+    width: 1rem;
+    height: 0.74rem;
     margin-top: 0.5rem;
 }
 /*footer部分开始*/
