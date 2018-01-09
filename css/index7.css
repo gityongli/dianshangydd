@@ -39,41 +39,19 @@ header .one a:hover{
 [data-dpr="3"] header .one a{
     font-size: 42px;
 }
-/*洗衣机轮播部分开始*/
+/* <!--电视部分开始-->*/
 article{
     width: 10rem;
-    height:8.4rem;
+    height: 74rem;
     margin: 0 auto;
+}
+article .one{
+    width: 10rem;
+    height: 22rem;
     position: relative;
     top:1.36rem;
-    background: red;
 }
-article .flash{
-    width:10rem;
-    height: 8.4rem;
-    background: #fff;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-article .flash img {
-    width: 10rem;
-    height: 8.4rem;
-}
-/*洗衣机轮播部分结束*/
-section{
-    width: 10rem;
-    height:74rem;
-    position: relative;
-    top: 1.36rem;
-    margin: 0 auto;
-}
-section .one{
-    width: 10rem;
-    height: 28.5rem;
-    position: relative;
-}
-section .p1{
+article .p1{
     height: 1.2rem;
     font-size: 20px;
     color:#000;
@@ -81,59 +59,61 @@ section .p1{
     line-height:1.2rem;
     border-bottom: 0.026rem solid #d3d3d3;
 }
-[data-dpr="2"] section .p1{
+[data-dpr="2"] article .p1{
     font-size: 40px;
 }
-[data-dpr="3"] section .p1{
+[data-dpr="3"] article .p1{
     font-size: 60px;
 }
-section ul li{
+article ul li{
     width: 4.8rem;
-    height: 6.9rem;
+    height: 6.7rem;
     float:left;
     border:0.016rem solid #d3d3d3;
     margin-top: 0.2rem;
     border-radius: 0.1rem;
 }
 
-section ul .li2{
+article ul .li2{
     float:right;
 }
-section ul li img{
+article ul li img{
     width: 4rem;
     height: 4.053rem;
     margin: 0.4rem 0.4rem 0.2rem 0.4rem;
 }
-section ul .p2{
+article ul .p2{
     width: 4rem;
-    height: 1.5rem;
+    height: 1.3rem;
     font-size: 12px;
     color:#636364;
     margin-left: 0.4rem;
 
 }
-[data-dpr="2"] section .p2{
+[data-dpr="2"] article .p2{
     font-size: 24px;
 }
-[data-dpr="3"] section .p2{
+[data-dpr="3"] article .p2{
     font-size: 36px;
 }
-section ul .p3{
+article ul .p3{
     font-size: 12px;
     color:#d8154d;
     margin-left: 0.4rem;
+
 }
-[data-dpr="2"] section .p3{
+[data-dpr="2"] article .p3{
     font-size: 24px;
 }
-[data-dpr="3"] section .p3{
+[data-dpr="3"] article .p3{
     font-size: 36px;
 }
-section ul .span1{
+article ul .span1{
     color:#078707;
     float:right;
     margin-right: 0.4rem;
 }
+/* <!--电视部分结束-->*/
 /*footer部分开始*/
 footer {
     width: 100%;
