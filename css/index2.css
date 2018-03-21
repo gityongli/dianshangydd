@@ -5,6 +5,9 @@
  a{
      text-decoration: none;
  }
+ a:hover{
+     text-decoration: none;
+ }
  header {
      width: 100%;
      height: 1.36rem;
@@ -116,6 +119,16 @@ article .p1{
      float:right;
      margin-right: 0.4rem;
  }
+ /*.box1{*/
+     /*width: 4rem;*/
+     /*height: 4.053rem;*/
+     /*overflow: hidden;*/
+ /*}*/
+ /*.box1 img:hover{*/
+     /*transform:scale(1.3);*/
+     /*transition: all 1s ease 0s;*/
+     /*-webkit-transform: scale(1.3);*/
+ /*}*/
  /* <!--电视部分结束-->*/
 /*空调部分开始*/
  article .two{
@@ -182,5 +195,4 @@ article .p1{
  [data-dpr="3"] footer a p {
      font-size: 42px;
  }
-
  /*footer部分结束*/
