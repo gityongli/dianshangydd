@@ -71,3 +71,13 @@ function li55(){
     document.getElementById("main33").style.display="none";
     document.getElementById("main44").style.display="none";
 }
+
+function checkEmail() {
+    var email = document.getElementById("email").value;
+    var a = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+    if (!a.test(email)) {
+        document.getElementById("emailSpan").innerHTML = "不符合规范"
+    } else {
+        document.getElementById("emailSpan").innerHTML = "正确"
+    }
+}
