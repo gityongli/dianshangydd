@@ -120,7 +120,7 @@
     -ms-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     overflow: hidden;
-    z-index: 1000
+    /*z-index: 1000*/
 }
 
 .he_border1 .he_border1_caption_h {
@@ -282,7 +282,7 @@
     -ms-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     overflow: hidden;
-    z-index: 1000
+    /*z-index: 1000*/
 }
 
 .he_border2 .he_border2_caption_h {
